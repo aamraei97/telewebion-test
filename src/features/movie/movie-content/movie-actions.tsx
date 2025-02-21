@@ -6,7 +6,7 @@ import { ThumbsUpIcon } from "@/components/icons/thumbs-up";
 import { PlayIcon } from "@/components/icons/play";
 export function MovieActions() {
 	return (
-		<div className="flex flex-col md:flex-row items-center gap-6 mt-8 w-full">
+		<div className="flex flex-col lg:flex-row items-center gap-6 mt-8 w-full">
 			<Button size="md" className="w-full md:w-auto" icon={<PlayIcon />}>
 				پخش
 			</Button>

@@ -14,7 +14,7 @@ export function MovieContent() {
 			<MovieCover movieCoverPath="/images/movie-cover.png" />
 
 			<Container className="grid lg:grid-cols-2 relative">
-				<div className="flex flex-col items-center md:items-start lg:pt-[100px] pb-8 lg:pb-24">
+				<div className="flex flex-col items-center lg:items-start lg:pt-[100px] pb-8 lg:pb-24">
 					<MovieLogo logoPath="/images/movie-logo.png" persianTitle={movieMockData.persian_title} />
 
 					<MovieMeta />
@@ -23,7 +23,6 @@ export function MovieContent() {
 
 					<MovieDescription description={movieMockData.description} />
 				</div>
-
 				<MovieNetworkLogo />
 			</Container>
 		</div>

@@ -25,7 +25,7 @@ export function MovieMeta() {
 		return temp.join(" . ");
 	}, []);
 	return (
-		<div className="flex flex-col items-center md:items-start gap-2">
+		<div className="flex flex-col items-center lg:items-start gap-2">
 			<h2 className="text-white text-xl font-medium">{movieMockData.name}</h2>
 			<p className="text-white text-xs">{metaItems}</p>
 			<MovieTags tags={movieMockData.tags} />

@@ -4,7 +4,7 @@ import { headerNavLinks } from "./links";
 
 export function HeaderNav() {
 	return (
-		<ul className="flex items-center gap-4">
+		<ul className="items-center gap-4 hidden lg:flex">
 			{headerNavLinks.map((link) => (
 				<li key={link.href} className="flex">
 					<Link

@@ -7,6 +7,7 @@ export interface MovieEpisode {
   title: string;
   href: string;
   rate: number;
+  cover: string;
 }
 export interface Movie {
   name: string;
@@ -37,30 +38,35 @@ export const movieMockData: Movie = {
           title: "مرد آهنی: انتقام برای آزادی",
           href: "/",
           rate: 56,
+          cover: "/images/episode images/cover-1.png",
         },
         {
           id: "2",
           title: "مرد آهنی: انتقام برای آزادی",
           href: "/",
           rate: 56,
+          cover: "/images/episode images/cover-2.png",
         },
         {
           id: "3",
           title: "مرد آهنی: انتقام برای آزادی",
           href: "/",
           rate: 56,
+          cover: "/images/episode images/cover-3.png",
         },
         {
           id: "4",
           title: "مرد آهنی: انتقام برای آزادی",
           href: "/",
           rate: 56,
+          cover: "/images/episode images/cover-4.png",
         },
         {
           id: "5",
           title: "مرد آهنی: انتقام برای آزادی",
           href: "/",
           rate: 56,
+          cover: "/images/episode images/cover-5.png",
         },
         {
           id: "6",
@@ -68,24 +74,49 @@ export const movieMockData: Movie = {
             "مرد آهنی: انتقام برای آزادی آزادی آزادی آزادی آزادی آزادیآزادی",
           href: "/",
           rate: 56,
+          cover: "/images/episode images/cover-6.png",
         },
         {
           id: "7",
           title: "مرد آهنی: انتقام برای آزادی",
           href: "/",
           rate: 56,
+          cover: "/images/episode images/cover-7.png",
         },
         {
           id: "8",
           title: "مرد آهنی: انتقام برای آزادی",
           href: "/",
           rate: 56,
+          cover: "/images/episode images/cover-8.png",
         },
         {
           id: "9",
           title: "مرد آهنی: انتقام برای آزادی",
           href: "/",
           rate: 56,
+          cover: "/images/episode images/cover-9.png",
+        },
+        {
+          id: "10",
+          title: "مرد آهنی: انتقام برای آزادی",
+          href: "/",
+          rate: 56,
+          cover: "/images/episode images/cover-10.png",
+        },
+        {
+          id: "11",
+          title: "مرد آهنی: انتقام برای آزادی",
+          href: "/",
+          rate: 56,
+          cover: "/images/episode images/cover-11.png",
+        },
+        {
+          id: "12",
+          title: "مرد آهنی: انتقام برای آزادی",
+          href: "/",
+          rate: 56,
+          cover: "/images/episode images/cover-12.png",
         },
       ],
     },
@@ -96,6 +127,7 @@ export const movieMockData: Movie = {
           title: "مرد آهنی: انتقام برای آزادی",
           href: "/",
           rate: 56,
+          cover: "/images/episode images/cover-1.png",
         },
       ],
     },

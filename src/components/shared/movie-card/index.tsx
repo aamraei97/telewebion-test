@@ -6,7 +6,7 @@ export function MovieCard({ episode }: { episode: MovieEpisode }) {
     <div className="relative grid gap-2">
       <div className="relative w-full h-full aspect-[5/3] rounded-sm border border-[#FFFFFF1A] overflow-hidden">
         <Image
-          src={`/images/movie-cover.png`}
+          src={episode.cover}
           alt={episode.title}
           fill
           className="object-cover"

@@ -1,5 +1,5 @@
 import { Container } from "@/components/shared/container";
-import { movieMockData } from "@/app/config/movie-moxk-data";
+import { movieMockData } from "@/app/config/movie-mock-data";
 
 import { MovieDescription } from "./movie-description";
 import { MovieMeta } from "./movie-meta";

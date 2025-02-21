@@ -1,4 +1,4 @@
-import { movieMockData } from "@/app/config/movie-moxk-data";
+import { movieMockData } from "@/app/config/movie-mock-data";
 import { MovieTags } from "./movie-tags";
 import { useMemo } from "react";
 

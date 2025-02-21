@@ -1,7 +1,7 @@
 "use client";
 import { useCallback, useState } from "react";
 
-import { movieMockData } from "@/app/config/movie-moxk-data";
+import { movieMockData } from "@/app/config/movie-mock-data";
 import { Container } from "@/components/shared/container";
 import { MovieCard } from "@/components/shared/movie-card";
 import { Tabs } from "@/components/shared/tabs";
@@ -13,7 +13,7 @@ export function MovieSeries() {
 		id: index.toString(),
 		label: `فصل ${index + 1}`,
 	}));
-	const visibleSerie = movieMockData.series[activeTab];
+	const visibleSerie = movieMockData.series[activeTab] ?? [];
 	const tabChangeHandler = useCallback((tabId: string) => {
 		setActiveTab(parseInt(tabId));
 	}, []);

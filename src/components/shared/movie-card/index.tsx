@@ -1,4 +1,4 @@
-import { MovieEpisode } from "@/app/config/movie-moxk-data";
+import { MovieEpisode } from "@/interfaces/movie";
 import { MovieCardHeader } from "./movie-card-header";
 
 export function MovieCard({ episode }: { episode: MovieEpisode }) {

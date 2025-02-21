@@ -1,11 +1,12 @@
 import { cn } from "@/lib/utils";
+import { memo } from "react";
 
 type Props = {
 	tabs: { id: string; label: string }[];
 	activeTab: string;
 	onTabChange: (tabId: string) => void;
 };
-export function Tabs({ tabs, activeTab, onTabChange }: Props) {
+function TabsComponent({ tabs, activeTab, onTabChange }: Props) {
 	return (
 		<div className="flex border-b border-[#10151A]">
 			{tabs.map((tab) => (
@@ -45,3 +46,5 @@ export function Tab({ children, isActive, onClick }: TabProps) {
 		</button>
 	);
 }
+
+export const Tabs = memo(TabsComponent);

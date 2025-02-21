@@ -5,5 +5,5 @@ type Props = {
 	className?: string;
 };
 export function Container({ children, className = "" }: Props) {
-	return <div className={cn("max-w-7xl w-full mx-auto px-4", className)}>{children}</div>;
+	return <div className={cn("max-w-[1320px] w-full mx-auto px-4", className)}>{children}</div>;
 }

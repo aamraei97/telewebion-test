@@ -10,8 +10,8 @@ export function MovieCard({ episode }: { episode: MovieEpisode }) {
 					<h3 className="text-[#CBD2D9] text-xs line-clamp-1">{episode.title}</h3>
 					<span className="text-[#7B8794] text-xs">%{episode.rate}</span>
 				</div>
-
-				<div className="flex items-center gap-2">asd</div>
+				<span className="text-[#7B8794] text-xs">رستاخیز فرشتگان</span>
+				<p className="text-[#7B8794] text-xs">فصل ۳ قسمت ۸ . ۴۱ هزار بازدید</p>
 			</div>
 		</div>
 	);

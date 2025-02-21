@@ -8,6 +8,7 @@ export interface MovieEpisode {
   href: string;
   rate: number;
   cover: string;
+  duration: string;
 }
 export interface Movie {
   name: string;
@@ -39,6 +40,7 @@ export const movieMockData: Movie = {
           href: "/",
           rate: 56,
           cover: "/images/episode images/cover-1.png",
+          duration: "1:32:48"
         },
         {
           id: "2",
@@ -46,6 +48,7 @@ export const movieMockData: Movie = {
           href: "/",
           rate: 56,
           cover: "/images/episode images/cover-2.png",
+          duration: "1:32:48",
         },
         {
           id: "3",
@@ -53,6 +56,7 @@ export const movieMockData: Movie = {
           href: "/",
           rate: 56,
           cover: "/images/episode images/cover-3.png",
+          duration: "1:32:48",
         },
         {
           id: "4",
@@ -60,6 +64,7 @@ export const movieMockData: Movie = {
           href: "/",
           rate: 56,
           cover: "/images/episode images/cover-4.png",
+          duration: "1:32:48",
         },
         {
           id: "5",
@@ -67,6 +72,7 @@ export const movieMockData: Movie = {
           href: "/",
           rate: 56,
           cover: "/images/episode images/cover-5.png",
+          duration: "1:32:48",
         },
         {
           id: "6",
@@ -75,6 +81,7 @@ export const movieMockData: Movie = {
           href: "/",
           rate: 56,
           cover: "/images/episode images/cover-6.png",
+          duration: "1:32:48",
         },
         {
           id: "7",
@@ -82,6 +89,7 @@ export const movieMockData: Movie = {
           href: "/",
           rate: 56,
           cover: "/images/episode images/cover-7.png",
+          duration: "1:32:48",
         },
         {
           id: "8",
@@ -89,6 +97,7 @@ export const movieMockData: Movie = {
           href: "/",
           rate: 56,
           cover: "/images/episode images/cover-8.png",
+          duration: "1:32:48",
         },
         {
           id: "9",
@@ -96,6 +105,7 @@ export const movieMockData: Movie = {
           href: "/",
           rate: 56,
           cover: "/images/episode images/cover-9.png",
+          duration: "1:32:48",
         },
         {
           id: "10",
@@ -103,6 +113,7 @@ export const movieMockData: Movie = {
           href: "/",
           rate: 56,
           cover: "/images/episode images/cover-10.png",
+          duration: "1:32:48",
         },
         {
           id: "11",
@@ -110,6 +121,7 @@ export const movieMockData: Movie = {
           href: "/",
           rate: 56,
           cover: "/images/episode images/cover-11.png",
+          duration: "1:32:48",
         },
         {
           id: "12",
@@ -117,6 +129,7 @@ export const movieMockData: Movie = {
           href: "/",
           rate: 56,
           cover: "/images/episode images/cover-12.png",
+          duration: "1:32:48",
         },
       ],
     },
@@ -128,6 +141,7 @@ export const movieMockData: Movie = {
           href: "/",
           rate: 56,
           cover: "/images/episode images/cover-1.png",
+          duration: "1:32:48",
         },
       ],
     },
